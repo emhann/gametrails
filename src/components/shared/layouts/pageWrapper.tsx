@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Toolbar from 'components/misc/toolbar'
+
 import styles from './pageWrapper.scss'
 
 type Props = {
@@ -8,7 +10,7 @@ type Props = {
 
 const PageWrapper = ({ children }: Props) => (
   <div className={styles.page}>
-    {/* Insert toolbar here */}
+    <Toolbar/>
     <div className={styles.content}>{children}</div>
   </div>
 )

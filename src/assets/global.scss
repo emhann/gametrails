@@ -1,5 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import 'variables';
+
+:global {
+  // Libraries
+  // Import css libraries here as needed
+  @import '~react-toggle/style';
+
+  html,
+  body,
+  #main {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-size-adjust: 100%;
+
+    background-color: var(--background);
+    color: var(--text-color);;
+
+    --background: #2F2F2F; // jet
+    --text-color: #FAF6F6; // cultured
+
+    --primary: #70ABAF;
+    --primary-darker: #497F83;
+    --secondary: #99E1D9;
+    --secondary-darker: #41C8B8;
+    --tertiary: #F29559;
+    --tertiary-darker: #EE7C2F; 
+    
+    --onyx: #393E41;
+    --charcoal: #2F4858;
+  }
+
+  *:focus {
+    outline-color: #38c172;
+  }
 }
