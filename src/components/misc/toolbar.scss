@@ -1,13 +1,17 @@
 @import 'variables';
 
 .bar {
-  background-color: $primary-darker;
-
-  padding: 10px 10px;
-
-  height: 50px;
-
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: $primary-darker;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.title {
+  color: $text-color;
+  font-size: 2em;
+  font-weight: 200;
+  text-decoration: none;
 }

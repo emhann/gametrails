@@ -1,12 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import styles from 'components/misc/toolbar.scss'
 
 const Toolbar = () => (
     <div className={styles.bar}>
-      <h1>GameTrails</h1>
-      <div className={styles.controls}>
-      </div>
+      <Link className={styles.title}to='/'>GameTrails</Link>
     </div>
   )
   
