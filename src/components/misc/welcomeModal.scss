@@ -2,15 +2,20 @@
 
 .welcome {
   background-color: $secondary-darker;
+  border-radius: 15px;
   color: $background;
 
   padding: 25px 25px;
-  // height: 50px;
 
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  color: $text-color;
+  width: 100%;
   text-align: center;
-  // align-items: center;
 }
 
 .advantages {
