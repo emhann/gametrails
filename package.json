@@ -27,6 +27,12 @@
   },
   "homepage": "https://github.com/emhann/gametrails#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "dotenv": "^10.0.0",
     "dotenv-webpack": "^7.0.3",
     "history": "^4.10.1",
@@ -64,7 +70,7 @@
     "sass-loader": "^10.2.0",
     "style-loader": "^2.0.0",
     "ts-loader": "^8.0.15",
-    "webpack": "^4.46.0",
+    "webpack": "^5.45.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.2"
   }

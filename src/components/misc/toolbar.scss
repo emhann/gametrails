@@ -4,6 +4,7 @@
   align-items: center;
   background-color: $primary-darker;
   display: flex;
+  font-size: 2em;
   height: 50px;
   justify-content: space-between;
   padding: 10px 10px;
@@ -11,7 +12,12 @@
 
 .title {
   color: $text-color;
-  font-size: 2em;
   font-weight: 200;
+  text-decoration: none;
+}
+
+.icon {
+  color: $text-color;
+  padding: 10px 10px;
   text-decoration: none;
 }
